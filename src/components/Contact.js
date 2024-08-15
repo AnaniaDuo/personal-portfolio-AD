@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img-anh.svg";
+import contactImg from "../assets/img/contact-img.png";
 import axios from "axios";
 function Contact() {
   const formInitialDetails = {

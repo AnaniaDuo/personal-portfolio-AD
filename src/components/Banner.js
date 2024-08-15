@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImage from "../assets/img/header-img-anh2.svg";
+import headerImage from "../assets/img/header-img-anh-1.png";
 
 function Banner() {
   const toRotate = ["Web Developer"];
