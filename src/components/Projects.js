@@ -1,10 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
-import projectImage1 from "../assets/img/project-img5.png";
+import projectImage1 from "../assets/img/positivitea-proj.png";
 import projectImage2 from "../assets/img/be-my-voice-proj.png";
-import projectImage3 from "../assets/img/project-img3.png";
 import ProjectCard from "./ProjectCard";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 
 function Projects() {
   const projects = [
