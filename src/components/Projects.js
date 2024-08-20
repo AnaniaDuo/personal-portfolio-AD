@@ -12,8 +12,9 @@ function Projects() {
       imgUrl: projectImage1,
       githubLink: "https://github.com/AnaniaDuo/ecommerce2024",
       websiteLink: "https://positivitea-69a34d16eeb8.herokuapp.com",
+      videoDemoLink: "https://youtu.be/PC7cZwKuIok",
       techStack:
-        "React, Node.js, Sequelize, Express, Redux, TailwindCSS, Heroku",
+        "React, Node.js, Sequelize, Express, Redux, TailwindCSS, Animate.css, Heroku",
     },
     {
       title: "Be My Voice",
@@ -24,11 +25,6 @@ function Projects() {
       techStack:
         "React, Node.js, Tensorflow.js, Sequelize, Express, Redux, React webcam, Heroku",
     },
-    // {
-    //   title: "Positivitea3",
-    //   description: "Online tea shop full stack development 2",
-    //   imgUrl: projectImage3,
-    // },
   ];
 
   return (
@@ -41,24 +37,13 @@ function Projects() {
               <p>
                 Below, you’ll find some of my key projects that highlight my
                 passion for creating engaging web applications which showcase my
-                skills in front-end and back-end development.
+                skills in front-end and{" "}
+                <span style={{ whiteSpace: "nowrap" }}>
+                  back-end development
+                </span>
+                .
               </p>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                {/* <Nav
-                  variant="pills"
-                  className="nav-pills mb-5 justify-content align-items-center"
-                  id="pills-tab"
-                >
-                  <Nav.Item>
-                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                  </Nav.Item>
-                </Nav> */}
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
                     <Row>

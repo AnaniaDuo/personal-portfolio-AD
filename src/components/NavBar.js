@@ -66,11 +66,12 @@ export default function NavBar() {
           </Nav>
           <span className="navbar-text">
             <SocialButton />
-            <a href="#section">
-              <button className="vvd">
-                <span>Let's Connect</span>
-              </button>
-            </a>
+            <button
+              className="vvd"
+              onClick={() => (window.location.href = "#section")}
+            >
+              <span>Let's Connect</span>
+            </button>
           </span>
         </Navbar.Collapse>
       </Container>
